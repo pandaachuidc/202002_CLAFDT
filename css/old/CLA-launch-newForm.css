@@ -1144,6 +1144,7 @@ input {
 .eventpage_oto_wrapper .event_oto .event_content .button_box {
   padding: 0; }
   .eventpage_oto_wrapper .event_oto .event_content .button_box button {
+    width: 200px;
     display: inline-block;
     text-align: center;
     border: 1px solid #000;
