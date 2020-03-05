@@ -628,11 +628,11 @@ $brown: #8e5f52;
       top: -100px;
     }
     .CLAFDT-content {
-      position: absolute;
-      z-index: 2;
-      top: 0;
-      left: 0;
-      right: 0;
+      // position: absolute;
+      // z-index: 2;
+      // top: 0;
+      // left: 0;
+      // right: 0;
       padding: 92px 8% 0;
       .CLAFDT-content-tit.on {
         animation: approach-from-top 1.5s;
@@ -668,43 +668,80 @@ $brown: #8e5f52;
           animation: approach-from-right 1.5s;
         }
       }
-    }
-  }
-  .section-7-wrap {
-    background: url(../images/CLAFDT-bg-pc_07.jpg) no-repeat top center;
-    background-size: 100%;
-    position: relative;
-    .CLAFDT-content {
-      width: 50%;
-      position: absolute;
-      z-index: 2;
-      top: 28%;
-      left: 45%;
-      right: 0;
-
-      .CLAFDT-content-tit {
-        h2 {
-          padding-top: 0.5em;
+      .bottom-new {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 100px;
+        .CLAFDT-content-left {
+          width: 60%;
           img {
-            width: 148px;
+            // width: 1%;
+          }
+        }
+        .CLAFDT-content-right {
+          width: 50%;
+          // padding-left: 10%;
+          padding-top: 100px;
+          .CLAFDT-content-tit {
+            h2 {
+              padding-top: 0.5em;
+              img {
+                width: 148px;
+              }
+            }
+          }
+          .CLAFDT-btn-content {
+            padding-top: 4em;
+            .price {
+              span {
+                color: #c07f4b;
+                font-size: 35px;
+                font-weight: bold;
+              }
+            }
           }
         }
       }
-      .CLAFDT-btn-content {
-        padding-top: 4em;
-        .price {
-          span {
-            color: #c07f4b;
-            font-size: 35px;
-            font-weight: bold;
-          }
-        }
+      .bottom-new.on {
+        animation: approach-from-top 1.5s;
       }
-    }
-    .CLAFDT-content.on {
-      animation: approach-from-top 1.5s;
     }
   }
+  // .section-7-wrap {
+  //   background: url(../images/CLAFDT-bg-pc_07.jpg) no-repeat top center;
+  //   background-size: 100%;
+  //   position: relative;
+  //   .CLAFDT-content {
+  //     width: 50%;
+  //     position: absolute;
+  //     z-index: 2;
+  //     top: 28%;
+  //     left: 45%;
+  //     right: 0;
+
+  //     .CLAFDT-content-tit {
+  //       h2 {
+  //         padding-top: 0.5em;
+  //         img {
+  //           width: 148px;
+  //         }
+  //       }
+  //     }
+  //     .CLAFDT-btn-content {
+  //       padding-top: 4em;
+  //       .price {
+  //         span {
+  //           color: #c07f4b;
+  //           font-size: 35px;
+  //           font-weight: bold;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .CLAFDT-content.on {
+  //     animation: approach-from-top 1.5s;
+  //   }
+  // }
 }
 
 @media (max-width: 1024px) {
@@ -882,19 +919,31 @@ $brown: #8e5f52;
             }
           }
         }
-      }
-    }
-    .section-7-wrap {
-      .CLAFDT-content {
-        .CLAFDT-btn-content {
-          .price {
-            span {
-              font-size: 35px - 5;
+        .bottom-new {
+          .CLAFDT-content-right {
+            padding-top: 70px;
+            .CLAFDT-btn-content {
+              .price {
+                span {
+                  font-size: 35px - 5;
+                }
+              }
             }
           }
         }
       }
     }
+    // .section-7-wrap {
+    //   .CLAFDT-content {
+    //     .CLAFDT-btn-content {
+    //       .price {
+    //         span {
+    //           font-size: 35px - 5;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -1171,29 +1220,68 @@ $brown: #8e5f52;
             width: 100%;
           }
         }
-      }
-    }
-    .section-7-wrap {
-      background: url(../images/CLAFDT-bg-mb_07.jpg) no-repeat top center;
-      background-size: 100%;
-      position: relative;
-      .CLAFDT-content {
-        width: 100%;
-        top: 8%;
-        left: 0;
-        right: 0;
-        .CLAFDT-content-tit {
-          h2 {
-            img {
-              width: 191px;
+        .bottom-new {
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 100px;
+          position: relative;
+          .CLAFDT-content-left {
+            width: 100%;
+            padding-top: 9em;
+          }
+          .CLAFDT-content-right {
+            width: 100%;
+            // padding-left: 10%;
+            padding-top: 0;
+
+            .CLAFDT-content-tit {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              h2 {
+                padding-top: 0.5em;
+                img {
+                  width: 148px;
+                }
+              }
+            }
+            .CLAFDT-btn-content {
+              padding-top: 0;
+              margin-top: -60px;
+              .price {
+                span {
+                  color: #c07f4b;
+                  font-size: 35px;
+                  font-weight: bold;
+                }
+              }
             }
           }
         }
-        .CLAFDT-btn-content {
-          padding-top: 102%;
-        }
       }
     }
+    // .section-7-wrap {
+    //   background: url(../images/CLAFDT-bg-mb_07.jpg) no-repeat top center;
+    //   background-size: 100%;
+    //   position: relative;
+    //   .CLAFDT-content {
+    //     width: 100%;
+    //     top: 8%;
+    //     left: 0;
+    //     right: 0;
+    //     .CLAFDT-content-tit {
+    //       h2 {
+    //         img {
+    //           width: 191px;
+    //         }
+    //       }
+    //     }
+    //     .CLAFDT-btn-content {
+    //       padding-top: 102%;
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -1442,10 +1530,10 @@ $brown: #8e5f52;
       }
     }
     .section-6-wrap {
-      padding: 92px 5% 0;
       .CLAFDT-content {
+        padding: 92px 5% 0;
         .bottom {
-          padding-top: 30px;
+          padding-top: 0;
           .CLAFDT-form {
             .eventpage_oto_wrapper {
               .event_oto {
@@ -1463,33 +1551,58 @@ $brown: #8e5f52;
             width: 90%;
             margin: 0 auto;
             img {
-              margin-top: -60px;
+              margin-top: 0;
+            }
+          }
+        }
+        .bottom-new {
+          .CLAFDT-content-left {
+            padding-top: 6em;
+          }
+          .CLAFDT-content-right {
+            padding-top: 0;
+
+            .CLAFDT-content-tit {
+              h2 {
+                img {
+                  width: 29%;
+                }
+              }
+            }
+            .CLAFDT-btn-content {
+              padding-top: 0;
+              margin-top: -20px;
+              .price {
+                span {
+                  font-size: 35px - 10;
+                }
+              }
             }
           }
         }
       }
     }
-    .section-7-wrap {
-      .CLAFDT-content {
-        top: 8%;
-        .CLAFDT-content-tit {
-          h2 {
-            padding-top: 0.5em;
-            img {
-              width: 25.4%;
-            }
-          }
-        }
-        .CLAFDT-btn-content {
-          padding-top: 97%;
-          .price {
-            span {
-              font-size: 35px - 10;
-            }
-          }
-        }
-      }
-    }
+    // .section-7-wrap {
+    //   .CLAFDT-content {
+    //     top: 8%;
+    //     .CLAFDT-content-tit {
+    //       h2 {
+    //         padding-top: 0.5em;
+    //         img {
+    //           width: 25.4%;
+    //         }
+    //       }
+    //     }
+    //     .CLAFDT-btn-content {
+    //       padding-top: 97%;
+    //       .price {
+    //         span {
+    //           font-size: 35px - 10;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -1724,6 +1837,17 @@ $brown: #8e5f52;
                       font-size: 15px - 7;
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+        .bottom-new {
+          .CLAFDT-content-right {
+            .CLAFDT-btn-content {
+              .price {
+                span {
+                  font-size: 35px - 13;
                 }
               }
             }
