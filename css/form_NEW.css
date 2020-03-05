@@ -16,6 +16,11 @@ li:hover {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
+#CLA-form .formfield {
+  float: none;
+  width: 100%;
+  margin: 0; }
+
 .eventpage_oto_wrapper .event_oto .event_content {
   display: block;
   margin: 0 auto;
@@ -23,8 +28,7 @@ li:hover {
 
 .eventpage_oto_wrapper .event_oto .event_content .formfields_box {
   width: 100%;
-  margin: 0;
-  padding: 0; }
+  margin: 0; }
 
 .eventpage_oto_wrapper .event_oto .event_content .formfields_box .f_label {
   display: none; }
@@ -43,7 +47,7 @@ li:hover {
     margin-right: 7px; }
   .eventpage_oto_wrapper .event_oto .event_content .formfields_box .answer7 .f_label {
     display: block;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     position: relative;
     padding-left: 8px; }
@@ -55,13 +59,18 @@ li:hover {
       top: 2px;
       left: 0; }
 
-.eventpage_oto_wrapper .event_oto .event_content .formfields_box .f_field_textinput input {
+.eventpage_oto_wrapper
+.event_oto
+.event_content
+.formfields_box
+.f_field_textinput
+input {
   font-size: 16px;
   padding: 3px 10px;
   width: 100%;
   max-width: 100%;
   height: 56px;
-  color: #3a5775;
+  color: #92629d;
   margin-bottom: 20px; }
 
 .eventpage_oto_wrapper .event_oto .formfield_address1.input-group {
@@ -69,49 +78,49 @@ li:hover {
 
 /* //表單placeholder */
 #otoo-event-form .f_field::-webkit-input-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field:-ms-input-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field input::-moz-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field:-moz-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field input::-webkit-input-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field input:-ms-input-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field input::-ms-input-placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
 
 #otoo-event-form .f_field input::placeholder {
-  color: #3a5775;
+  color: #92629d;
   font-size: 18px;
   font-weight: 600;
   opacity: 1; }
@@ -123,20 +132,23 @@ li:hover {
   margin-bottom: 30px; }
 
 .eventpage_oto_wrapper .event_oto .event_content .button_box button {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
   border: 1px solid #000;
   color: #fff;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
   font-weight: normal;
-  padding: 14px 40px;
+  padding: 12px 40px;
   background-color: #000;
   box-shadow: 0 0 10px #fff;
   -webkit-box-shadow: 0 0 10px #fff;
   margin-bottom: 20px; }
 
-.eventpage_oto_wrapper .event_oto .event_content .button_box .formfield.formfield_button {
+.eventpage_oto_wrapper .event_oto .event_content .button_box #CLA-form .formfield.formfield_button {
   margin: 0 auto;
-  width: 100%;
+  width: 200px;
   float: none; }
 
 .eventpage_oto_wrapper .event_oto .event_content .button_box button:focus,
@@ -145,7 +157,11 @@ li:hover {
   border: 1px solid #000;
   color: #000; }
 
-.eventpage_oto_wrapper .event_oto .event_content .button_box .formfield.formfield_button:hover {
+.eventpage_oto_wrapper
+.event_oto
+.event_content
+.button_box
+.formfield.formfield_button:hover {
   transform: scale(0.9);
   -ms-transform: scale(0.9);
   /* IE 9 */
@@ -196,7 +212,11 @@ li:hover {
     top: 30%;
     margin-left: -25%; } }
 
-.eventpage_oto_wrapper .event_oto .event_content .response_box.active .close_lightbox {
+.eventpage_oto_wrapper
+.event_oto
+.event_content
+.response_box.active
+.close_lightbox {
   background: url(../images/lightbox_close.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -212,8 +232,34 @@ li:hover {
   font-size: 16px; }
 
 @media (min-width: 992px) {
-  .eventpage_oto_wrapper .event_oto .event_content .response_box.active .close_lightbox {
+  .eventpage_oto_wrapper
+.event_oto
+.event_content
+.response_box.active
+.close_lightbox {
     top: 31%;
     left: auto;
     right: 50%;
     margin-right: -24%; } }
+
+@media (max-width: 414px) {
+  #CLA-form .f_field input::-webkit-input-placeholder {
+    color: #92629d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1; }
+  #CLA-form .f_field input:-ms-input-placeholder {
+    color: #92629d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1; }
+  #CLA-form .f_field input::-ms-input-placeholder {
+    color: #92629d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1; }
+  #CLA-form .f_field input::placeholder {
+    color: #92629d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1; } }

@@ -282,8 +282,6 @@ $brown: #8e5f52;
           h1 {
             font-size: 40px;
           }
-          h2 {
-          }
         }
         .CLAFDT-content-right-txt {
           padding-top: 25px;
@@ -298,7 +296,7 @@ $brown: #8e5f52;
               vertical-align: middle;
             }
           }
-          img{
+          img {
             width: 42%;
           }
         }
@@ -621,7 +619,7 @@ $brown: #8e5f52;
     background: url(../images/CLAFDT-bg-pc_06.jpg) no-repeat top center;
     background-size: 100%;
     position: relative;
-    padding: 92px 8% 100px;
+
     .adjust {
       position: absolute;
       z-index: 1;
@@ -630,13 +628,19 @@ $brown: #8e5f52;
       top: -100px;
     }
     .CLAFDT-content {
-      .CLAFDT-content-tit.on{
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 92px 8% 0;
+      .CLAFDT-content-tit.on {
         animation: approach-from-top 1.5s;
       }
       .bottom {
         display: flex;
         flex-direction: row;
-        padding-top: 70px;
+        margin-top: 70px;
         .CLAFDT-form {
           width: 50%;
           p {
@@ -664,6 +668,41 @@ $brown: #8e5f52;
           animation: approach-from-right 1.5s;
         }
       }
+    }
+  }
+  .section-7-wrap {
+    background: url(../images/CLAFDT-bg-pc_07.jpg) no-repeat top center;
+    background-size: 100%;
+    position: relative;
+    .CLAFDT-content {
+      width: 50%;
+      position: absolute;
+      z-index: 2;
+      top: 28%;
+      left: 45%;
+      right: 0;
+
+      .CLAFDT-content-tit {
+        h2 {
+          padding-top: 0.5em;
+          img {
+            width: 148px;
+          }
+        }
+      }
+      .CLAFDT-btn-content {
+        padding-top: 4em;
+        .price {
+          span {
+            color: #c07f4b;
+            font-size: 35px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .CLAFDT-content.on {
+      animation: approach-from-top 1.5s;
     }
   }
 }
@@ -815,7 +854,9 @@ $brown: #8e5f52;
     }
     .section-6-wrap {
       .CLAFDT-content {
+        padding: 75px 4% 0;
         .bottom {
+          margin-top: 36px;
           .CLAFDT-form {
             p {
               font-size: 21px - 3;
@@ -830,6 +871,25 @@ $brown: #8e5f52;
                   }
                 }
               }
+            }
+            .eventpage_oto_wrapper
+              .event_oto
+              .event_content
+              .formfields_box
+              .f_field_textinput
+              input {
+              height: 45px;
+            }
+          }
+        }
+      }
+    }
+    .section-7-wrap {
+      .CLAFDT-content {
+        .CLAFDT-btn-content {
+          .price {
+            span {
+              font-size: 35px - 5;
             }
           }
         }
@@ -1113,6 +1173,27 @@ $brown: #8e5f52;
         }
       }
     }
+    .section-7-wrap {
+      background: url(../images/CLAFDT-bg-mb_07.jpg) no-repeat top center;
+      background-size: 100%;
+      position: relative;
+      .CLAFDT-content {
+        width: 100%;
+        top: 8%;
+        left: 0;
+        right: 0;
+        .CLAFDT-content-tit {
+          h2 {
+            img {
+              width: 191px;
+            }
+          }
+        }
+        .CLAFDT-btn-content {
+          padding-top: 102%;
+        }
+      }
+    }
   }
 }
 
@@ -1361,7 +1442,7 @@ $brown: #8e5f52;
       }
     }
     .section-6-wrap {
-      padding: 92px 5% 100px;
+      padding: 92px 5% 0;
       .CLAFDT-content {
         .bottom {
           padding-top: 30px;
@@ -1371,11 +1452,39 @@ $brown: #8e5f52;
                 .event_content {
                   .note {
                     ul li {
-                      font-size: 15px;
+                      font-size: 15px - 5;
                     }
                   }
                 }
               }
+            }
+          }
+          .CLAFDT-gift {
+            width: 90%;
+            margin: 0 auto;
+            img {
+              margin-top: -60px;
+            }
+          }
+        }
+      }
+    }
+    .section-7-wrap {
+      .CLAFDT-content {
+        top: 8%;
+        .CLAFDT-content-tit {
+          h2 {
+            padding-top: 0.5em;
+            img {
+              width: 25.4%;
+            }
+          }
+        }
+        .CLAFDT-btn-content {
+          padding-top: 97%;
+          .price {
+            span {
+              font-size: 35px - 10;
             }
           }
         }
@@ -1601,13 +1710,18 @@ $brown: #8e5f52;
     .section-6-wrap {
       .CLAFDT-content {
         .bottom {
+          padding-top: 0;
+          margin-top: 30px;
           .CLAFDT-form {
             .eventpage_oto_wrapper {
               .event_oto {
                 .event_content {
+                  .formfields_box .f_field_textinput input {
+                    margin-bottom: 12px;
+                  }
                   .note {
                     ul li {
-                      font-size: 15px - 2;
+                      font-size: 15px - 7;
                     }
                   }
                 }
