@@ -333,25 +333,28 @@ $brown: #8e5f52;
       .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
+        margin: 3% 0 0 30% ;
         position: relative;
-        border: 1px #000 solid;
+        // border: 1px #000 solid;
         img {
+          // width: 60%;
+          position: absolute;
           &:nth-child(1) {
-            position: absolute;
+            width:63% ;
             top: -20px;
             left: 10px;
             animation: bubble 5s linear infinite;
             animation-direction: alternate;
           }
           &:nth-child(2) {
-            position: absolute;
+            width:68% ;
             top: 150px;
             left: 80px;
             animation: bubble-reverse 8s linear infinite;
             animation-direction: alternate;
           }
           &:nth-child(3) {
-            position: absolute;
+            width:70% ;
             top: 300px;
             left: 0px;
             animation: bubble-reverse2 5s linear infinite;
@@ -361,8 +364,8 @@ $brown: #8e5f52;
       }
       .CLAFDT-btn-content {
         width: 325px;
-        padding-top: 27%;
-        margin-left: 23%;
+        margin: 0 auto;
+        margin-top: -3em;
       }
     }
     .CLAFDT-content.on {

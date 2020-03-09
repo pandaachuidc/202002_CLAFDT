@@ -291,36 +291,38 @@ li {
       .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
-        position: relative;
-        border: 1px #000 solid; }
-        .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
-          position: absolute;
-          top: -20px;
-          left: 10px;
-          -webkit-animation: bubble 5s linear infinite;
-          animation: bubble 5s linear infinite;
-          -webkit-animation-direction: alternate;
-          animation-direction: alternate; }
-        .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
-          position: absolute;
-          top: 150px;
-          left: 80px;
-          -webkit-animation: bubble-reverse 8s linear infinite;
-          animation: bubble-reverse 8s linear infinite;
-          -webkit-animation-direction: alternate;
-          animation-direction: alternate; }
-        .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
-          position: absolute;
-          top: 300px;
-          left: 0px;
-          -webkit-animation: bubble-reverse2 5s linear infinite;
-          animation: bubble-reverse2 5s linear infinite;
-          -webkit-animation-direction: alternate;
-          animation-direction: alternate; }
+        margin: 3% 0 0 30%;
+        position: relative; }
+        .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img {
+          position: absolute; }
+          .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
+            width: 63%;
+            top: -20px;
+            left: 10px;
+            -webkit-animation: bubble 5s linear infinite;
+            animation: bubble 5s linear infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate; }
+          .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
+            width: 68%;
+            top: 150px;
+            left: 80px;
+            -webkit-animation: bubble-reverse 8s linear infinite;
+            animation: bubble-reverse 8s linear infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate; }
+          .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
+            width: 70%;
+            top: 300px;
+            left: 0px;
+            -webkit-animation: bubble-reverse2 5s linear infinite;
+            animation: bubble-reverse2 5s linear infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate; }
       .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-btn-content {
         width: 325px;
-        padding-top: 27%;
-        margin-left: 23%; }
+        margin: 0 auto;
+        margin-top: -3em; }
     .CLAFDT-wrap .section-2-wrap .CLAFDT-content.on {
       -webkit-animation: approach-from-top 1.5s;
       animation: approach-from-top 1.5s; }
