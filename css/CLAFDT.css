@@ -291,20 +291,20 @@ li {
       .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
-        margin: 3% 0 0 30%;
+        margin: 3% 0 0 32%;
         position: relative; }
         .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img {
           position: absolute; }
           .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
-            width: 63%;
-            top: -20px;
+            width: 55%;
+            top: -10px;
             left: 10px;
             -webkit-animation: bubble 5s linear infinite;
             animation: bubble 5s linear infinite;
             -webkit-animation-direction: alternate;
             animation-direction: alternate; }
           .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
-            width: 68%;
+            width: 60%;
             top: 150px;
             left: 80px;
             -webkit-animation: bubble-reverse 8s linear infinite;
@@ -312,8 +312,8 @@ li {
             -webkit-animation-direction: alternate;
             animation-direction: alternate; }
           .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
-            width: 70%;
-            top: 300px;
+            width: 63%;
+            top: 275px;
             left: 0px;
             -webkit-animation: bubble-reverse2 5s linear infinite;
             animation: bubble-reverse2 5s linear infinite;
@@ -632,9 +632,21 @@ li {
         width: 52%; }
       .CLAFDT-wrap .kv-wrap .CLAFDT-content .CLAFDT-content-right .CLAFDT-content-right-txt p span {
         font-size: 17.5px; }
-  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-btn-content {
-    padding-top: 25%;
-    margin-left: 17%; }
+  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
+    height: 420px;
+    margin: 3% 0 0 30%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
+      width: 45%;
+      top: -10px;
+      left: 40px; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
+      width: 50%;
+      top: 112px;
+      left: 80px; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
+      width: 53%;
+      top: 220px;
+      left: 5px; }
   .CLAFDT-wrap .section-3-wrap .CLAFDT-content {
     top: 6.26%; }
     .CLAFDT-wrap .section-3-wrap .CLAFDT-content .three-points-wrap .point1 {
@@ -759,14 +771,24 @@ input {
     background: url(../images/CLAFDT-bg-mb_02.jpg) no-repeat top center;
     background-size: 100%; }
   .CLAFDT-wrap .section-2-wrap .CLAFDT-content {
-    top: 6.6%; }
-    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-tit h1 {
-      padding-bottom: 0.5em; }
-    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-tit span img {
-      width: 70%; }
+    top: 9.6%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
+      height: 520px;
+      margin: 26% 0 30% 10%; }
+      .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
+        width: 72%;
+        top: -10px;
+        left: 40px; }
+      .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
+        width: 75%;
+        top: 200px;
+        left: 88px; }
+      .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
+        width: 85%;
+        top: 376px;
+        left: 5px; }
     .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-btn-content {
-      padding-top: 120%;
-      margin: 0 auto; }
+      margin-top: 0; }
   .CLAFDT-wrap .section-3-wrap .bg-img {
     width: 100%;
     background: url(../images/CLAFDT-bg-mb_03.jpg) no-repeat top center;
@@ -943,6 +965,21 @@ input {
           margin-right: -29%; }
         .CLAFDT-wrap .kv-wrap .CLAFDT-content .CLAFDT-content-right .CLAFDT-content-right-txt .CLAFDT-btn-wrap {
           padding-top: 1em; }
+  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
+    height: 360px;
+    margin: 21% 0 9% 3%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
+      width: 43%;
+      top: -10px;
+      left: 9%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
+      width: 47%;
+      top: 120px;
+      left: 19%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
+      width: 50%;
+      top: 215px;
+      left: 5px; }
   .CLAFDT-wrap .section-3-wrap {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1085,7 +1122,7 @@ input {
         width: 90%;
         margin: 0 auto; }
         .CLAFDT-wrap .section-6-wrap .CLAFDT-content .bottom .CLAFDT-gift img {
-          margin-top: 0; }
+          margin-top: -40px; }
     .CLAFDT-wrap .section-6-wrap .CLAFDT-content .bottom-new .CLAFDT-content-left {
       padding-top: 6em; }
     .CLAFDT-wrap .section-6-wrap .CLAFDT-content .bottom-new .CLAFDT-content-right {
@@ -1124,12 +1161,17 @@ input {
         margin-right: -31%; }
       .CLAFDT-wrap .kv-wrap .CLAFDT-content .CLAFDT-content-right .CLAFDT-content-right-txt .CLAFDT-btn-wrap {
         padding-top: 1em; }
-  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-tit h1 {
-    padding-bottom: 1em; }
-  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-tit span img {
-    width: 76%; }
-  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-btn-content {
-    padding-top: 112%; }
+  .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
+    margin: 21% 0 4% 3%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(1) {
+      width: 39%;
+      top: -10px; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(2) {
+      width: 43%;
+      top: 100px; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble img:nth-child(3) {
+      width: 46%;
+      top: 192px; }
   .CLAFDT-wrap .section-3-wrap .CLAFDT-content .three-points-wrap .point1 .top .title,
   .CLAFDT-wrap .section-3-wrap .CLAFDT-content .three-points-wrap .point2 .top .title,
   .CLAFDT-wrap .section-3-wrap .CLAFDT-content .three-points-wrap .point3 .top .title {

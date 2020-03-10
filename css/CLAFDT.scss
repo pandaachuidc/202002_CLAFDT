@@ -320,42 +320,31 @@ $brown: #8e5f52;
       top: 9%;
       right: 0;
       left: 0;
-      .CLAFDT-content-tit {
-        h1 {
-          // padding-bottom: 0.5em;
-        }
-        // span {
-        //   img {
-        //     width: 33.2%;
-        //   }
-        // }
-      }
       .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
-        margin: 3% 0 0 30% ;
+        margin: 3% 0 0 32%;
         position: relative;
         // border: 1px #000 solid;
         img {
-          // width: 60%;
           position: absolute;
           &:nth-child(1) {
-            width:63% ;
-            top: -20px;
+            width: 55%;
+            top: -10px;
             left: 10px;
             animation: bubble 5s linear infinite;
             animation-direction: alternate;
           }
           &:nth-child(2) {
-            width:68% ;
+            width: 60%;
             top: 150px;
             left: 80px;
             animation: bubble-reverse 8s linear infinite;
             animation-direction: alternate;
           }
           &:nth-child(3) {
-            width:70% ;
-            top: 300px;
+            width: 63%;
+            top: 275px;
             left: 0px;
             animation: bubble-reverse2 5s linear infinite;
             animation-direction: alternate;
@@ -785,9 +774,26 @@ $brown: #8e5f52;
     }
     .section-2-wrap {
       .CLAFDT-content {
-        .CLAFDT-btn-content {
-          padding-top: 25%;
-          margin-left: 17%;
+        .CLAFDT-content-bubble {
+          height: 420px;
+          margin: 3% 0 0 30%;
+          img {
+            &:nth-child(1) {
+              width: 55% - 10;
+              top: -10px;
+              left: 40px;
+            }
+            &:nth-child(2) {
+              width: 60% - 10;
+              top: 150px - 38;
+              left: 80px;
+            }
+            &:nth-child(3) {
+              width: 63% - 10;
+              top: 275px - 55;
+              left: 5px;
+            }
+          }
         }
       }
     }
@@ -1013,20 +1019,31 @@ $brown: #8e5f52;
         background-size: 100%;
       }
       .CLAFDT-content {
-        top: 6.6%;
-        .CLAFDT-content-tit {
-          h1 {
-            padding-bottom: 0.5em;
-          }
-          span {
-            img {
-              width: 70%;
+        top: 9.6%;
+
+        .CLAFDT-content-bubble {
+          height: 520px;
+          margin: 26% 0 30% 10%;
+          img {
+            &:nth-child(1) {
+              width: 55% + 17;
+              top: -10px;
+              left: 40px;
+            }
+            &:nth-child(2) {
+              width: 58% + 17;
+              top: 200px;
+              left: 88px;
+            }
+            &:nth-child(3) {
+              width: 68% + 17;
+              top: 376px;
+              left: 5px;
             }
           }
         }
         .CLAFDT-btn-content {
-          padding-top: 120%;
-          margin: 0 auto;
+          margin-top: 0;
         }
       }
     }
@@ -1302,6 +1319,31 @@ $brown: #8e5f52;
         }
       }
     }
+    .section-2-wrap {
+      .CLAFDT-content {
+        .CLAFDT-content-bubble {
+          height: 360px;
+          margin: 21% 0 9% 3%;
+          img {
+            &:nth-child(1) {
+              width: 55% - 12;
+              top: -10px;
+              left: 9%;
+            }
+            &:nth-child(2) {
+              width: 58% - 11;
+              top: 120px;
+              left: 19%;
+            }
+            &:nth-child(3) {
+              width: 68% - 18;
+              top: 215px;
+              left: 5px;
+            }
+          }
+        }
+      }
+    }
     .section-3-wrap {
       box-sizing: border-box;
       overflow: hidden;
@@ -1501,7 +1543,7 @@ $brown: #8e5f52;
             width: 90%;
             margin: 0 auto;
             img {
-              margin-top: 0;
+              margin-top: -40px;
             }
           }
         }
@@ -1585,18 +1627,25 @@ $brown: #8e5f52;
     }
     .section-2-wrap {
       .CLAFDT-content {
-        .CLAFDT-content-tit {
-          h1 {
-            padding-bottom: 1em;
-          }
-          span {
-            img {
-              width: 76%;
+        .CLAFDT-content-bubble {
+          margin: 21% 0 4% 3%;
+          img {
+            &:nth-child(1) {
+              width: 55% - 16;
+              top: -10px;
+              // left: 9%;
+            }
+            &:nth-child(2) {
+              width: 58% - 15;
+              top: 100px;
+              // left: 19%;
+            }
+            &:nth-child(3) {
+              width: 68% - 22;
+              top: 192px;
+              // left: 5px;
             }
           }
-        }
-        .CLAFDT-btn-content {
-          padding-top: 112%;
         }
       }
     }
