@@ -381,7 +381,7 @@ $brown: #8e5f52;
         position: relative;
         max-width: 1280px;
         width: 100%;
-        height: 820px;
+        height: 740px;
         .point1,
         .point2,
         .point3 {
@@ -801,6 +801,7 @@ $brown: #8e5f52;
       .CLAFDT-content {
         top: 6.26%;
         .three-points-wrap {
+          height: 580px;
           .point1 {
             top: 57px;
             left: 0;
@@ -962,7 +963,7 @@ $brown: #8e5f52;
     .CLAFDT-btn-wrap {
       .CLAFDT-btn-try,
       .CLAFDT-btn-buy {
-        font-size: 32px;
+        // font-size: 32px;
       }
     }
 
@@ -1055,6 +1056,7 @@ $brown: #8e5f52;
       }
       .CLAFDT-content {
         .three-points-wrap {
+          height: 825px;
           .point1 {
             top: 18%;
             left: 24.6%;
@@ -1349,6 +1351,7 @@ $brown: #8e5f52;
       overflow: hidden;
       .CLAFDT-content {
         .three-points-wrap {
+          margin-top: -11%;
           .point1,
           .point2,
           .point3 {
@@ -1549,7 +1552,7 @@ $brown: #8e5f52;
         }
         .bottom-new {
           .CLAFDT-content-left {
-            padding-top: 6em;
+            padding-top: 9em;
           }
           .CLAFDT-content-right {
             padding-top: 0;
@@ -1652,6 +1655,8 @@ $brown: #8e5f52;
     .section-3-wrap {
       .CLAFDT-content {
         .three-points-wrap {
+          margin-top: -6%;
+          height: 800px;
           .point1,
           .point2,
           .point3 {
@@ -1699,7 +1704,7 @@ $brown: #8e5f52;
             .bottom-wrap {
               .bottom-wrap-item {
                 &:nth-of-type(1) {
-                  left: 123px;
+                  left: 107px;
                   top: 16px;
                   width: 80%;
                   img {
@@ -1720,9 +1725,9 @@ $brown: #8e5f52;
               .bottom-wrap-item {
                 &:nth-of-type(1) {
                   right: 0;
-                  left: 15px;
+                  left: 26px;
                   top: 12px;
-                  width: 83%;
+                  width: 75%;
                 }
                 &:nth-of-type(2) {
                   left: -19.6%;
