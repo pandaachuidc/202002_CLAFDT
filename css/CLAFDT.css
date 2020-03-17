@@ -288,6 +288,15 @@ li {
       top: 9%;
       right: 0;
       left: 0; }
+      .CLAFDT-wrap .section-2-wrap .CLAFDT-content .note {
+        position: absolute;
+        padding-right: 5%;
+        right: 0;
+        bottom: 25%;
+        -webkit-transform: scale(0.9);
+        font-size: 12px;
+        text-align: left;
+        color: #666363; }
       .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
@@ -771,6 +780,13 @@ input {
     background-size: 100%; }
   .CLAFDT-wrap .section-2-wrap .CLAFDT-content {
     top: 9.6%; }
+    .CLAFDT-wrap .section-2-wrap .CLAFDT-content .note {
+      bottom: -5%;
+      text-align: center;
+      right: 0;
+      left: 0;
+      padding: 0;
+      font-size: 8px; }
     .CLAFDT-wrap .section-2-wrap .CLAFDT-content .CLAFDT-content-bubble {
       height: 520px;
       margin: 26% 0 30% 10%; }

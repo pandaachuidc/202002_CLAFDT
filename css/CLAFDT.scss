@@ -320,6 +320,16 @@ $brown: #8e5f52;
       top: 9%;
       right: 0;
       left: 0;
+      .note {
+        position: absolute;
+        padding-right: 5%;
+        right: 0;
+        bottom: 25%;
+        -webkit-transform: scale(0.9);
+        font-size: 12px;
+        text-align: left;
+        color: lighten($grey, 20%);
+      }
       .CLAFDT-content-bubble {
         width: 270px;
         height: 520px;
@@ -960,12 +970,12 @@ $brown: #8e5f52;
         font-size: 18px + 10;
       }
     }
-    .CLAFDT-btn-wrap {
-      .CLAFDT-btn-try,
-      .CLAFDT-btn-buy {
-        // font-size: 32px;
-      }
-    }
+    // .CLAFDT-btn-wrap {
+    //   .CLAFDT-btn-try,
+    //   .CLAFDT-btn-buy {
+    //     font-size: 32px;
+    //   }
+    // }
 
     .kv-wrap {
       background: url(../images/CLAFDT-bg-mb_01.jpg) no-repeat top center;
@@ -1021,7 +1031,16 @@ $brown: #8e5f52;
       }
       .CLAFDT-content {
         top: 9.6%;
-
+        .note {
+          bottom: -5%;
+          // width: 60%;
+          text-align: center;
+          // left: 0;
+          right: 0;
+          left: 0;
+          padding: 0;
+          font-size: 8px;
+        }
         .CLAFDT-content-bubble {
           height: 520px;
           margin: 26% 0 30% 10%;
