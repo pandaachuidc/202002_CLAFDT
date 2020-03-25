@@ -638,18 +638,20 @@ $brown: #8e5f52;
       }
       p {
         font-size: 35px;
+        font-weight: bold;
         padding-bottom: 0.3em;
         letter-spacing: -2px;
-        // transition: all ease-out 4s;
         display: block;
-        &::after {
-          content: "";
-          display: block;
-          margin: 0 auto;
-          width: 8em;
-          height: 3px;
-          background-color: #bc5e1e;
-        }
+        text-shadow: 0 0 5px #fff,0 0 5px #fff, 0 0 5px #fff;
+
+        // &::after {
+        //   content: "";
+        //   display: block;
+        //   margin: 0 auto;
+        //   width: 8em;
+        //   height: 3px;
+        //   background-color: #bc5e1e;
+        // }
       }
 
       ul {
